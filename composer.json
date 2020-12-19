@@ -1,0 +1,21 @@
+{
+    "name": "geriano/encryption",
+    "description": "Encryption Library",
+    "type": "library",
+    "require": {
+        "php": "8",
+        "geriano/helpers": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geriano",
+            "email": "gerznewbie@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Geriano\\Encryption\\": "src"
+        }
+    }
+}
