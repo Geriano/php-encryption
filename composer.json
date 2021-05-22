@@ -1,5 +1,5 @@
 {
-    "name": "geriano/container",
+    "name": "geriano/encryption",
     "description": "Encryption Library",
     "require": {
         "php": "^8",
