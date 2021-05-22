@@ -1,10 +1,9 @@
 {
-    "name": "geriano/encryption",
+    "name": "geriano/container",
     "description": "Encryption Library",
-    "type": "library",
     "require": {
-        "php": "8",
-        "geriano/helpers": "*"
+        "php": "^8",
+        "geriano/":,
     },
     "license": "MIT",
     "authors": [
@@ -17,5 +16,10 @@
         "psr-4": {
             "Geriano\\Encryption\\": "src"
         }
-    }
+    },
+    "composer-runtime-api": "^1.0|^2.0",
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
 }
