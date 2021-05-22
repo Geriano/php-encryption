@@ -3,7 +3,7 @@
     "description": "Encryption Library",
     "require": {
         "php": "^8",
-        "geriano/":,
+        "geriano/helpers": "dev-main",
     },
     "license": "MIT",
     "authors": [
