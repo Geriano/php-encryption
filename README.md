@@ -21,7 +21,7 @@ $key    = 'YOUR_SECRET_KEY';
 
 $encryptor = new Encryptor($key, $cipher);
 
-$encrypted = $encryptor->encrypt('MY_SECRET_PASSWORD');
+$encrypted = $encryptor->encrypt('MY_SECRET_CONTENT');
 
 var_dump($encrypted);
 // output: random string never same
@@ -29,5 +29,5 @@ var_dump($encrypted);
 $myData = $encryptor->decrypt($encrypted);
 
 var_dump($myData);
-// output: 'MY_SECRET_PASSWORD'
+// output: 'MY_SECRET_CONTENT'
 ```
